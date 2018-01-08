@@ -8,7 +8,7 @@ public class Pez extends Animal {
 
 	@Override
 	public void mostrar() {
-		System.out.println(super.getEspecie() + " : "+ super.getPatas());
+		System.out.println("Soy un "+super.getEspecie() + " con "+ super.getPatas()+" patas");
 		
 	}
 

@@ -12,6 +12,12 @@ public class Gekko extends Animal {
 		super("gekko", 4);
 		// TODO Auto-generated constructor stub
 	}
+	public Gekko(float peso, float longitud) {
+		super("gekko", 4);
+		this.setPeso(peso);
+		this.setLongitud(longitud);
+		// TODO Auto-generated constructor stub
+	}
 	
 	public void getInfo (){
 		System.out.print ("Este Gekko tiene " + cantidadDedos + " dedos y");
@@ -92,7 +98,6 @@ public class Gekko extends Animal {
 	@Override
 	public void mostrar() {
 		// TODO Auto-generated method stub
-		System.out.println("Mostrando Info: ");
 		this.getInfo();
 	}
 	

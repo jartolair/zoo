@@ -8,9 +8,10 @@ public class Elefante extends Animal {
 		super("elefante", 4);
 	}
 	
-	public Elefante(String color, double longitudTrompa){
+	public Elefante(double longitudTrompa){
 		super("Elefante", 4);
 		this.longitudTrompa = longitudTrompa;
+		this.setColor("gris");
 	}
 	
 	String getColor() {

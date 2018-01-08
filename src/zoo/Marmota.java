@@ -40,7 +40,7 @@ public class Marmota extends Animal{
 	/*
 	 * CONSTRUCTORS
 	 */
-	public Marmota( String tipo, int patas ) {
+	public Marmota(int peso) {
 		super("marota", 4);
 		this.setPeso(peso);
 	}

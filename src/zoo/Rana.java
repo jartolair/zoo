@@ -11,10 +11,9 @@ public class Rana extends Animal{
 		
 	}
 	
-	public Rana(String especie, int patas, String Color) {
+	public Rana(String Color) {
+		super("Rana",4);
 		this.setColor(Color);
-		super.setEspecie(especie);
-		super.setPatas(patas);
 	}
 	
 	//Getters y Setters

@@ -20,6 +20,7 @@ public class Perro extends Animal {
 	public Perro(String nombre, String raza) {
 		super("perro", 2);
 		this.nombre=nombre;
+		this.setRaza(raza);
 	}
 	
 
