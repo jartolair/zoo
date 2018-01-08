@@ -8,5 +8,9 @@ public class Puercoespin extends Animal {
 		super.setEspecie(especie);
 		super.setPatas(patas);
 	}
+	
+	public void mostrar(){
+		System.out.println("Soy un cuerpoespin y tengo 4 patas");
+	}
 
 }

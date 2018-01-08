@@ -31,7 +31,7 @@ public class Marmota extends Animal{
 	 * Functions
 	 */
 	
-	public void mostrarinfo(){
+	public void mostrar(){
 		System.out.println("El " + super.getEspecie() +" tiene " + this.getPeso() +" kilos");
 	}
 	

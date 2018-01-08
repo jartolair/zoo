@@ -24,7 +24,7 @@ public class Lombriz extends Animal {
 	 * @see Animales.Animal#mostrar()
 	 */
 	public void mostrar() {
-		super.mostrar();
+		System.out.print("Soy una lombriz y no tengo patas");
 		System.out.print("mido " + getLongitud() + " cm y ");
 		if (bajoTierra) {
 			System.out.print("estoy bajo tierra");

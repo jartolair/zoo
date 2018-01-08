@@ -55,7 +55,7 @@ public class Leon extends Animal {
 		this.edad = edad;
 	}
 
-	public void mostrarInfo(){
+	public void mostrar(){
 		System.out.println("El " + super.getEspecie() +" tiene " + this.getPeso() +" kilos y tiene "+this.getEdad() +" años");
 	}
 	
